@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  font-size: 15px;
+  font-weight: 300;
+}
+.header #navItem {
+  margin-left: 15px;
+}
+.header #navItem:hover {
+  color: #fd3430;
+  border: 1px solid #fd3430;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  margin-top: 300px;
+  width: 120px;
+}
+
+.logoPc {
+  width: 260px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../imgs/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../imgs/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../../imgs/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(../../imgs/home/04.jpg);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #fd3430;
+}
+.footer .copyPH {
+  color: #555252;
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 45px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: solid 2px white;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+@media (max-width: 310px) {
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
+}
+.container00.container05 {
+  background-image: url(../../imgs/falcon9/bonus2.jpg);
+}
+.container00.container06 {
+  background-image: url(../../imgs/falcon9/02.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../../imgs/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../../imgs/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../../imgs/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../../imgs/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../../imgs/falcon9/07.jpg);
+}
+.container00.container07 {
+  background-image: url(../../imgs/falcon9/08.jpg);
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubki", sans-serif;
+  font-weight: 514;
+}
+
+.titleContent {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subTitleFalcon9 {
+  background-color: white;
+  color: black;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleNumb {
+  font-size: 80px;
+}
+
+.subTitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 20px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carouselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 50px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 16px;
+  }
+  .falcon9Desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: auto;
+    line-height: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: 9%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 393px) {
+  .titleFalcon9 {
+    font-size: 60px;
+    font-family: "Rubki", sans-serif;
+    font-weight: 514;
+  }
+}
+.container00.container08 {
+  background-image: url(../../imgs/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../../imgs/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../../imgs/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../../imgs/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../../imgs/humanFlight/05.jpg);
+}
+
+.subTitleHSF,
+.titleHSF {
+  background-color: white;
+  color: black;
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content h1 {
+  font-size: 200px;
+}
+.container01Content p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.container01Content img {
+  width: 130px;
+}
+
+.eartDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eartDesc p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+.eartDesc a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 1024px) {
+  .container01Content h1 {
+    font-size: 90px;
+  }
+  .container01Content p {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .containerRightContent {
+    margin-left: 50%;
+    padding-top: 20%;
+  }
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+    padding-top: 20%;
+  }
+}
+@media (max-width: 425px) {
+  .container01Content h1 {
+    font-size: 40px;
+  }
+  .container01Content p {
+    font-size: 16px;
+  }
+  .arrowDown {
+    display: none;
+  }
+  .eartDesc {
+    height: 30vh;
+  }
+  .eartDesc p {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    width: auto;
+  }
+  .containerRightContent {
+    margin-left: 20%;
+    padding-top: 30%;
+  }
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  .containerLeftContent {
+    margin-left: 7%;
+    padding-top: 30%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
